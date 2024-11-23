@@ -1,4 +1,4 @@
-module o3(a,p,d);
+module o4(a,p,d);
 input logic[3:0] a;
 output logic p,d;
 assign p=((~a[3])&(~a[2])&a[1])|((~a[3])&a[2]&a[0])|(a[2]&(~a[1])&a[0])|(a[3]&(~a[2])&a[1]&a[0]);
