@@ -1,6 +1,6 @@
 module gray_code_counter_tb();
 reg[2:0] g;
-reg reset,clk=1'b0;;
+reg reset,clk=1'b0;
 
 gray_code_counter i1(g,reset,clk);
 
